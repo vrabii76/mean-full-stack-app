@@ -1,6 +1,7 @@
 # MEAN Stack Application - Project Description
 
 Application was deployed using AWS: Elastic Beanstalk
+
 A live demo of the app can be found here: [MEAN App](http://node-angular-env.eba-v6xda7ej.eu-north-1.elasticbeanstalk.com/)
 
 1. Overview
