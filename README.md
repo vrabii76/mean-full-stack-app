@@ -1,59 +1,83 @@
-# MeanApp
+# MEAN Stack Application - Project Description
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.3.
+Application was deployed using AWS: Elastic Beanstalk
+A live demo of the app can be found here: [MEAN App](http://node-angular-env.eba-v6xda7ej.eu-north-1.elasticbeanstalk.com/)
 
-## Development server
+1. Overview
 
-To start a local development server, run:
+   This is a full-stack web application built using the MEAN stack (MongoDB, Express.js, Angular, Node.js). The application implements user authentication, file uploads, and features a modern UI using Angular Material components.
 
-```bash
-ng serve
-```
+2. Core Technologies
+   Backend Stack:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Node.js
 
-## Code scaffolding
+  - Runtime environment for executing JavaScript on the server
+  - Handles HTTP requests and business logic
+  - Manages file system operations and database connections
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Express.js
 
-```bash
-ng generate component component-name
-```
+  - Web application framework for Node.js
+  - Handles routing and middleware
+  - Provides RESTful API endpoints
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- MongoDB (with Mongoose)
+  - NoSQL database for storing application data
+  - Schema-based data modeling using Mongoose
+  - Document-oriented storage
 
-```bash
-ng generate --help
-```
+Frontend Stack:
 
-## Building
+- Angular (v19.1.0)
 
-To build the project run:
+  - Frontend framework for building single-page applications
+  - Component-based architecture
+  - TypeScript-powered development
 
-```bash
-ng build
-```
+- Angular Material
+  - Material Design components for Angular
+  - Responsive UI elements
+  - Pre-built accessibility features
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Authentication & Security:
 
-## Running unit tests
+- JSON Web Tokens
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+  - Secure user authentication
+  - Stateless session management
+  - Token-based API authorization
 
-```bash
-ng test
-```
+- bcrypt
+  - Password hashing and verification
+  - Secure credential storage
 
-## Running end-to-end tests
+File Handling:
 
-For end-to-end (e2e) testing, run:
+- Multer
+  - Middleware for handling multipart/form-data
+  - File upload management
+  - MIME type validation
 
-```bash
-ng e2e
-```
+3. Key Features
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- User Authentication
 
-## Additional Resources
+  - Login/Signup functionality
+  - JWT-based session management
+  - Route guards for protected routes
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Post Management
+
+  - CRUD operations for posts
+  - Image upload support
+  - Protecting resources with authorization
+  - Responsive UI
+
+4. Additional Tools
+
+- nodemon: Development server with auto-reload capability
+- TypeScript: Adds static typing to JavaScript
+- RxJS: Reactive programming library for handling asynchronous data
+
+This project demonstrates a full-stack JavaScript application with features for authentication, data management, and file handling, all built on the reliable MEAN stack architecture.
