@@ -12,6 +12,7 @@ angular/
 /node_modules
 npm-debug.log
 yarn-error.log
+/nodemon.json 
 
 # IDEs and editors
 .idea/
